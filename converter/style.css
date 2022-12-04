@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://index.az/wp-content/uploads/2022/05/1651670515_gettyimages-83077314-31d4b4d009f443c8ac37ee30eec32800.jpg); 
+}
+
+.container {
+    margin: 0;
+    padding: 20px 30px;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.main-currencies-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mainCurrenciesList{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.main-currencies-item {
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    margin: 30px;
+    background-color: #f1f2f8;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+
+#selectForCurrency{
+    padding: 15px 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background: #ffffff40;
+    font-size: 20px;
+    color: white;
+}
+
+#selectForCurrency option{
+    color: black;
+    font-size: 18px;
+}
+
+
+.div-header{
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 5px;
+    padding: 7px;
+}
